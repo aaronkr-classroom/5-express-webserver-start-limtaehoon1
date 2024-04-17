@@ -34,7 +34,7 @@ app.get("/courses/:courseId",homeController.sendCourseParam); // @TODO: "/course
  * 다른 라우트 수정
  */
 app.get("/",homeController.getHome); // @TODO: homeController에서 getHome을 가져와 사용한다
-app.get("/about/:About",homeController.getAbout);
+app.get("/about",homeController.getAbout);
 app.get("/contact",homeController.getContact); // @TODO: homeController에서 getContact을 가져와 사용한다
 app.post("/contact",homeController.postContact); // @TODO: homeController에서 postContact을 가져와 사용한다
 

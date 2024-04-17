@@ -42,9 +42,6 @@ app.get("/", (req, res) => {
   console.log(req.query);
 });
 
-app.get("/", (req, res) => {
-  res.send("This is the Home page.");
-});
 
 app.get("/contact", (req, res) => {
   res.send("This is the CONTACT page.");

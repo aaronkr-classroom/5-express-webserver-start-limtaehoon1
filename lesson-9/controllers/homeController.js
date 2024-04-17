@@ -26,11 +26,11 @@ exports.getHome = (req,res) => {
     res.send("This is the <span style='color: red;'>Home</span> page")
 }; // @TODO: exports 객체를 사용해 getHome 함수를 모듈로 내보낸다
 exports.getAbout = (req,res) => {
-    res.send("This is the <span stytle='color:green'>About</span> page")
+    res.send("This is the <span style='color: blue;'>About</span> page")
 };
 
 exports.getContact = (req,res) => {
-    res.send("This is the <span stytle='color:orange'>Contact</span> page")
+    res.send("This is the <span style='color: orange;'>Contact</span> page")
 }; // @TODO: exports 객체를 사용해 getContact 함수를 모듈로 내보낸다
 exports.postContact = (req,res) => {
     res.send("Contact info submitted!!!!!")
